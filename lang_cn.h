@@ -5,7 +5,7 @@ const String TXT_DAYS             = "(Days)";
 const String TXT_TEMPERATURES     = "Temperature";
 const String TXT_TEMPERATURE_C    = "Temperature (*C)";
 const String TXT_TEMPERATURE_F    = "Temperature (*F)";
-const String TXT_HUMIDITY_PERCENT = "湿度 (%)";
+const String TXT_HUMIDITY_PERCENT = "Humidity (%)";  //"Humidity (%)"
 
 // Pressure
 const String TXT_PRESSURE         = "Pressure";
@@ -24,18 +24,18 @@ const String TXT_PRECIPITATION_SOON = "Prec.";
 
 
 //Sun
-const String TXT_SUNRISE  = "日出";
-const String TXT_SUNSET   = "日落";
+const String TXT_SUNRISE  = "日出";  //"Sunrise"
+const String TXT_SUNSET   = "日落";  //"Sunset"
 
 //Moon
 const String TXT_MOON_NEW             = "New";
-const String TXT_MOON_WAXING_CRESCENT = "新月";
-const String TXT_MOON_FIRST_QUARTER   = "上弦月";
-const String TXT_MOON_WAXING_GIBBOUS  = "盈凸月";
-const String TXT_MOON_FULL            = "满月";
-const String TXT_MOON_WANING_GIBBOUS  = "亏凸月";
-const String TXT_MOON_THIRD_QUARTER   = "下弦月";
-const String TXT_MOON_WANING_CRESCENT = "残月";
+const String TXT_MOON_WAXING_CRESCENT = "新月";  ///"Waxing Crescent"
+const String TXT_MOON_FIRST_QUARTER   = "上弦月";  //"First Quarter"
+const String TXT_MOON_WAXING_GIBBOUS  = "盈凸月";  //"Waxing Gibbous"
+const String TXT_MOON_FULL            = "满月";  //"Full"
+const String TXT_MOON_WANING_GIBBOUS  = "亏凸月";  //"Waning Gibbous"
+const String TXT_MOON_THIRD_QUARTER   = "下弦月";  //"Third Quarter"
+const String TXT_MOON_WANING_CRESCENT = "残月";  //"Waning Crescent"
 
 //Power / WiFi
 const String TXT_POWER  = "Power";
@@ -66,4 +66,4 @@ const String TXT_NNW = "NNW";
 const char* weekday_D[] = { "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" };
 
 //Month
-const char* month_M[] = { "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" };
+const char* month_M[] = { "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "八月", "Sep", "Oct", "Nov", "Dec" };
